@@ -1,0 +1,15 @@
+.main-cursor,
+.shadow-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(17, 20, 209, 1);
+  pointer-events: none; /* Permet aux événements de la souris de passer à travers les curseurs */
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Assurez-vous que les curseurs s'affichent au-dessus de tous les autres éléments */
+}
+
+.shadow-cursor {
+  background-color: rgba(0, 0, 0, 0.2); /* Définir une couleur d'ombre plus claire */
+}
