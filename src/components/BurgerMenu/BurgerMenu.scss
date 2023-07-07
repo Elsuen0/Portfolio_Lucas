@@ -33,16 +33,20 @@ $primaryFont: 'Montserrat', sans-serif;
 .buttonModal{
     background: none;
     border: none;
+    cursor: none;
 }
 .menuIcon {
     color: white;
     font-size: 20px;
 }
-.closeIcon {
+.closeIcon { //button
     position: absolute;
     right: 30px;
     top: 30px;
     font-size: 20px;
+    cursor: none;
+    background: none;
+    border: none;
 }
 
 .modalContent {
