@@ -1,0 +1,65 @@
+$primaryFont: 'Montserrat', sans-serif;
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    background-color: white;
+    //transform: translateX(100%); /* Déplacer la modal hors de l'écran */
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%); /* Départ à droite de l'écran */
+    }
+    to {
+      transform: translateX(0); /* Arrivée à gauche de l'écran */
+    }
+  }
+.buttonModal{
+    background: none;
+    border: none;
+}
+.menuIcon {
+    color: white;
+    font-size: 20px;
+}
+.closeIcon {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 20px;
+}
+
+.modalContent {
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+    font-family: $primaryFont;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 80px;
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,32 @@
+$primaryFont : 'Montserrat', sans-serif;
+
+.meSection {
+    font-family: $primaryFont;
+    line-height: 30px;
+    width: 1200px;
+    margin:120px auto;
+    h3 {
+        font-weight: 400;
+    }
+
+}
+.buttonMe, .buttonMe_github {
+    background: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: $primaryFont;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.buttonMe:hover, .buttonMe_github:hover {
+    color: white;
+    background-color: black;
+}
+
+.buttonMe_github_icon {
+    margin-right: 15px;
+}

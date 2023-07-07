@@ -1,0 +1,21 @@
+$primaryFont: 'Montserrat', sans-serif;
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    .headerIn {
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: $primaryFont;
+            font-size: 25px;
+            font-weight: 500;
+        }
+    }
+}
