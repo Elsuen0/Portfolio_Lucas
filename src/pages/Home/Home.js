@@ -5,13 +5,10 @@ import Me from '../../components/About/Me';
 const Home = () => {
     return (
         <div>
-            <div>
-                <Header />
-            </div>
+            <Header />
             <main>
-                <Me />
-            </main>
 
+            </main>
         </div>
     );
 };
