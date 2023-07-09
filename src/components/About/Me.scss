@@ -4,9 +4,10 @@ $primaryFont : 'Montserrat', sans-serif;
     font-family: $primaryFont;
     line-height: 30px;
     width: 700px;
-    margin: 120px;
+    //margin: 120px;
     h1{
         font-size: 60px;
+        margin: 0;
     }
     h3 {
         font-weight: 400;
