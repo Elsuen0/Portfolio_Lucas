@@ -1,22 +1,60 @@
-$primaryFont: 'Montserrat', sans-serif;
+$primaryFont : 'Open Sans', sans-serif;
 
-header {
-    background-color: black;
+.headerIn {
+    position: fixed;
     display: flex;
-    justify-content: center;
-    height: 100px;
-    .headerIn {
-        width: 1440px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0px;
+    //border: 2px solid red;
+    height: 100vh;
+    width: 150px;
+    background-color: #181818;
+    box-shadow: 15px 0px 19px -15px rgba(0,0,0,0.75);
+    .links {
+        margin-top: 100px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        a {
+        .headerLink {
+            transform: rotate(-90deg);
             text-decoration: none;
-            color: white;
             font-family: $primaryFont;
-            font-size: 25px;
-            font-weight: 500;
-            cursor: none;
+            font-size: 20px;
+            color: white;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
         }
-    }
+        .headerLink:hover{
+            color: #FF2A48;
+        }
+        .headerLink::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background-color: transparent;
+            transform: translateY(-100%);
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .headerLink:hover::before {
+            transform: translateY(0);
+            background-color: #FF2A48;
+        }
+
+}
+}
+
+.sectionSocialMediaButtons {
+    //border: 2px solid blue;
+    height: 150px;
+    display: flex;
+    margin-bottom: 150px;
 }
