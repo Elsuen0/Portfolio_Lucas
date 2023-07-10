@@ -1,51 +1,83 @@
-$primaryFont : 'Montserrat', sans-serif;
+$primaryFont: "Open Sans", sans-serif;
 
 .meSection {
-    font-family: $primaryFont;
-    line-height: 30px;
-    width: 700px;
-    //margin: 120px;
-    h1{
-        font-size: 60px;
-        margin: 0;
-    }
-    h3 {
-        font-weight: 400;
-    }
-
+  //border: 2px solid blue;
+  font-family: $primaryFont;
+  width: 30%;
+  //margin: 120px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  align-items: center;
+  h1 {
+    font-size: 90px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 60px;
+    margin-top: -30px;
+    font-weight: 600;
+  }
+  h3 {
+    margin-top: 30px;
+    font-weight: 400;
+  }
 }
 
-.meGroupButton{
-    display: flex;
-    justify-content: space-between;
+.meGroupButton {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .buttonMe {
-    background: none;
-    width: 49%;
-    height: 40px;
-    border-radius: 25px;
-    border: 2px solid black;
-    padding: 0px;
-    font-size: 15px;
-    font-family: $primaryFont;
-    transition: color 0.3s ease, background-color 0.3s ease;
-
-    &.buttonMe_github {
-        //margin-left: 15px;
-    }
+  background: #ff2a48;
+  color: white;
+  width: 49%;
+  height: 40px;
+  border-radius: 25px;
+  border: 2px solid #ff2a48;
+  padding: 0px;
+  font-size: 15px;
+  font-family: $primaryFont;
+  transition: transform 0.3s ease;
 }
 
-.buttonMe:hover, .buttonMe_github:hover {
-    color: white;
-    background-color: black;
-    cursor: none;
+.buttonMe:hover {
+  cursor: none;
+  transform: scale(1.05);
 }
 
 .buttonMe_github_icon {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .githubLink {
-    display:contents;
-    border: 1px solid red;
+  display: contents;
+  border: 1px solid red;
+}
+
+.description_home {
+  //border: 2px solid green;
+  width: 70%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  font-family: $primaryFont;
+  font-size: 25px;
+  .paragraphe_haut {
+    color: #ff2a48;
+  }
+}
+.description_home::before {
+  content: "";
+  height: 1px;
+  width: 80%;
+  position: absolute;
+  background-color: white;
 }
