@@ -5,14 +5,21 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Me = () => {
     return (
-        <div className='meSection'>
-            <h1>Bonjour, je suis Lucas.</h1>
-            <h3>Développeur web, prêt à transformer vos idées en sites web remarquables</h3>
-            <div className='meGroupButton'>
-                <button className='buttonMe'>Me Contacter</button>
-                <a className='githubLink' href="https://github.com/Elsuen0?tab=repositories"><button className='buttonMe buttonMe_github'><FontAwesomeIcon className='buttonMe_github_icon' icon={faGithub} />GitHub</button></a>
+        <section className='mainSection_home'>
+            <div className='description_home'>
+                <p className='paragraphe_haut'>Développeur web</p>
+                <p className='paragraphe_bas'>Prêt à transformer vos idées en sites web remarquables ?</p>
             </div>
-        </div>
+
+            <div className='meSection'>
+                <h1>Bonjour,</h1>
+                <h2>Je suis Lucas</h2>
+                <div className='meGroupButton'>
+                    <button className='buttonMe'>Me Contacter</button>
+                </div>
+            </div>
+
+        </section>
     );
 };
 
