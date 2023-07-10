@@ -1,0 +1,12 @@
+.background {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  color: #1c1c1c;
+  font-size: 600px;
+  width: 1200px;
+  p {
+    margin: 0px;
+    height: fit-content;
+  }
+}
