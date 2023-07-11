@@ -1,9 +1,11 @@
 .bar {
   position: absolute;
-  top: 0;
+  top: 100px;
+  left: 0;
   width: 100%;
   height: 5px;
   background-color: #1c1c1c;
+  overflow: hidden;
 }
 .bar::before {
   display: flex;
@@ -21,7 +23,7 @@
     transform: translateX(0);
   }
   50% {
-    transform: translateX(2223px);
+    transform: translateX(100vw);
   }
 
   100% {
