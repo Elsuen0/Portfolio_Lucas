@@ -14,7 +14,7 @@ const Home = () => {
             <main>
                 <BurgerMenu />
                 <Me />
-                <Background />
+                {/*<Background />*/}
             </main>
             <section className='sousSection1'>
                 <AnimationBar />
