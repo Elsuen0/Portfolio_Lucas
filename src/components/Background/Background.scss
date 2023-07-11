@@ -5,8 +5,15 @@
   color: #1c1c1c;
   font-size: 600px;
   width: 1200px;
+  height: 100%;
+  line-height: 1.2;
+  z-index: 0;
+  overflow: hidden;
+  user-select: none;
   p {
+    display: flex;
     margin: 0px;
     height: fit-content;
+    line-height: 1;
   }
 }
