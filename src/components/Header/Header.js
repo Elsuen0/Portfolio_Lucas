@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="headerIn">
             <section className="links">
-                <a className='headerLink headerLink_about' href="/home">A Propos</a>
+                <a className='headerLink headerLink_about smooth-scroll' href="#About">A Propos</a>
                 <a className='headerLink headerLink_works' href="#">Mes Projets</a>
             </section>
 
