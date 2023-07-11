@@ -5,6 +5,7 @@ import Me from '../../components/Me/Me';
 import './Home.scss'
 import Background from '../../components/Background/Background';
 import About from '../../components/About/About';
+import AnimationBar from '../../components/AnimationBar/AnimationBar';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
                 <Background />
             </main>
             <section className='sousSection1'>
+                <AnimationBar />
                 <About />
             </section>
         </div>
