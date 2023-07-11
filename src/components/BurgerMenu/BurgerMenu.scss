@@ -20,6 +20,7 @@ $primaryFont: "Montserrat", sans-serif;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
 }
 
 @keyframes slideIn {
@@ -37,6 +38,7 @@ $primaryFont: "Montserrat", sans-serif;
   right: 30px;
   border: none;
   cursor: none;
+  z-index: 2;
 }
 .menuIcon {
   color: white;
@@ -54,6 +56,7 @@ $primaryFont: "Montserrat", sans-serif;
   cursor: none;
   background: none;
   border: none;
+  z-index: 2;
 }
 
 .modalContent {
