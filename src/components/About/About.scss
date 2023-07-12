@@ -30,4 +30,29 @@
     color: white;
     line-height: 1.8;
   }
+  .buttonSection {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    button {
+      width: 250px;
+      height: 50px;
+      border-radius: 25px;
+      background: none;
+      border: none;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      color: white;
+      margin-top: 50px;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+    .buttonContact {
+      background-color: #ff2a48;
+    }
+    .buttonCv {
+      background-color: #5a5a5a;
+    }
+  }
 }
