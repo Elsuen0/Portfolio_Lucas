@@ -29,9 +29,9 @@ const BurgerMenu = () => {
                 <div className='modalContent'>
                     <button onClick={closeModal} className='closeIcon'><FontAwesomeIcon icon={faXmark} /></button>
                     <ul>
-                        <li><a className='modalLink' href="#">Accueil</a></li>
-                        <li><a className='modalLink' href="#About">A propos</a></li>
-                        <li><a className='modalLink' href="#">Projets</a></li>
+                        <li><a className='modalLink' href="#main">Accueil</a></li>
+                        <li><a className='modalLink' href="#sousSection1">A propos</a></li>
+                        <li><a className='modalLink' href="#sousSection2">Projets</a></li>
                         <li><a className='modalLink' href="#">Services</a></li>
                         <li><a className='modalLink' href="#">Contact</a></li>
                     </ul>
