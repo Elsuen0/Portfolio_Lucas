@@ -1,6 +1,5 @@
 import React from 'react';
 import './Me.scss'
-import Background from '../Background/Background';
 import Scroll from '../Scroll/Scroll';
 
 const Me = () => {
