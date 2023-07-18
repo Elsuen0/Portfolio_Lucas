@@ -1,0 +1,38 @@
+.cardExp {
+  width: 500px;
+  height: auto;
+  background-color: #5a5a5a;
+  border-radius: 25px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 100px;
+  h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    margin: 0;
+  }
+  h1::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #ff2a48;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 3px;
+  }
+  .expYear {
+    color: #ff2a48;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  ul {
+    margin: 0;
+    padding-left: 15px;
+  }
+  li {
+    color: white;
+    margin-bottom: 15px;
+  }
+}
