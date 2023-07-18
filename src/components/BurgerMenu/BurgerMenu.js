@@ -4,6 +4,8 @@ import './BurgerMenu.scss'; // Importer le fichier de styles CSS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
+Modal.setAppElement('#root')
+
 const BurgerMenu = () => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
