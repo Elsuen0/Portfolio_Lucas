@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import './About.scss'
 import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
-import Counter from '../CompteurPage/Counter';
 
 const About = () => {
     const [ref, inView] = useInView({

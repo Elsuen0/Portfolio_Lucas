@@ -6,6 +6,7 @@ import './Home.scss'
 import About from '../../components/About/About';
 import AnimationBar from '../../components/AnimationBar/AnimationBar';
 import Counter from '../../components/CompteurPage/Counter';
+import Carrousel from '../../components/Carrousel/Carrousel';
 
 const Home = () => {
     return (
@@ -23,7 +24,7 @@ const Home = () => {
                 <Counter numPage={'02'} />
             </section>
             <section id='sousSection2'>
-
+                <Carrousel />
             </section>
         </div>
     );
