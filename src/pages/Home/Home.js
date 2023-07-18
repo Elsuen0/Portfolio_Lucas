@@ -6,7 +6,9 @@ import './Home.scss'
 import About from '../../components/About/About';
 import AnimationBar from '../../components/AnimationBar/AnimationBar';
 import Counter from '../../components/CompteurPage/Counter';
-import Carrousel from '../../components/Carrousel/Carrousel';
+import Experiences from '../../components/Experiences/Experiences';
+import data from '../../test.json'
+
 
 const Home = () => {
     return (
@@ -21,10 +23,12 @@ const Home = () => {
             <section id='sousSection1'>
                 <AnimationBar />
                 <About />
+                {data.map((item, index) => (<Experiences key={index} title={item.title} year={item.year} cpt1={item.cpt1} cpt2={item.cpt2} />))}
+
                 <Counter numPage={'02'} />
             </section>
             <section id='sousSection2'>
-                <Carrousel />
+
             </section>
         </div>
     );
