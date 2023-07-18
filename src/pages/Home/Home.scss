@@ -18,7 +18,8 @@
 #sousSection1,
 #sousSection2 {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   padding-left: 150px;
   //width: 100%;
   min-height: 100vh;
