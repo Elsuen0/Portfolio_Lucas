@@ -1,5 +1,5 @@
 import React from 'react';
-import './AnimationBar.scss'
+import './AnimationBar.css'
 
 const AnimationBar = () => {
     return (
