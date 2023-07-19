@@ -1,4 +1,5 @@
-.cardExp {
+.cardExp-1,
+.cardExp-2 {
   width: 500px;
   height: auto;
   background-color: #5a5a5a;
@@ -6,6 +7,11 @@
   padding: 15px;
   margin-top: 10px;
   margin-left: 100px;
+  .titleGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   h1 {
     color: white;
     font-weight: 400;
@@ -19,8 +25,14 @@
     height: 3px;
     background-color: #ff2a48;
     position: absolute;
-    bottom: -10px;
+    bottom: -8px;
     border-radius: 3px;
+  }
+  h2 {
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    margin: 0;
   }
   .expYear {
     color: #ff2a48;
