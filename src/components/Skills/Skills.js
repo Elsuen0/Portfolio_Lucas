@@ -19,6 +19,9 @@ const Skills = ({ skillImage, percentage }) => {
                 <circle cx="50%" cy="50%" r={radius + '%'} />
             </svg>
             <img src={skillImage} alt="Skill" className='skill-image' />
+            <div className="overlay-skills">
+                <p>{percentage}%</p>
+            </div>
         </div>
     );
 };
