@@ -1,6 +1,7 @@
 import React from 'react';
 import './Me.scss'
 import Scroll from '../Scroll/Scroll';
+import Counter from '../CompteurPage/Counter';
 
 const Me = () => {
     return (
@@ -18,7 +19,6 @@ const Me = () => {
                     <button className='buttonMe'>Me Contacter</button>
 </div>*/}
             </div>
-            <Scroll />
         </section>
     );
 };
