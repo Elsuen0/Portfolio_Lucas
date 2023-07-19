@@ -1,10 +1,13 @@
 import React from 'react';
 import './Experiences.scss'
 
-const Experiences = ({ title, year, cpt1, cpt2 }) => {
+const Experiences = ({ title, subtitle, year, cpt1, cpt2, className }) => {
     return (
-        <div className='cardExp'>
-            <h1 className='expH1'>{title}</h1>
+        <div className={className}>
+            <div className="titleGroup">
+                <h1 className='expH1'>{title}</h1>
+                <h2 className='expSubtitle'>{subtitle}</h2>
+            </div>
             <p className='expYear'>{year}</p>
             <span>
                 <ul>
