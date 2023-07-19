@@ -25,3 +25,15 @@
   min-height: 100vh;
   position: relative;
 }
+
+.groupExp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about_Picture {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
