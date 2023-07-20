@@ -27,9 +27,11 @@
 }
 
 .groupExp {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
 }
 
 .about_Picture {
@@ -45,6 +47,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   margin-top: 150px;
+  text-transform: uppercase;
 }
 
 .skillsGroup {
@@ -55,6 +58,20 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   margin-top: 15px;
+}
+
+.cardExp_position-1 {
+  grid-area: 1/1/2/2;
+  display: flex;
+  justify-content: flex-end;
+}
+.cardExp_position-2 {
+  grid-area: 2/2/3/3;
+}
+.cardExp_position-3 {
+  grid-area: 3/1/4/2;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .counter-container {
