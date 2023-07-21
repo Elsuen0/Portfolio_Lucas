@@ -7,8 +7,9 @@
   background-color: #5a5a5a;
   border-radius: 25px;
   padding: 15px;
-  margin-top: 10px;
+  //margin-top: 10px;
   //margin-left: 100px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
   .titleGroup {
     display: flex;
     align-items: center;
@@ -49,24 +50,4 @@
     color: white;
     margin-bottom: 15px;
   }
-}
-.cardExp-1::after {
-  content: "";
-  position: absolute;
-  right: -50px;
-  top: 0;
-  height: 100vh;
-  width: 5px;
-  background-color: #fff;
-}
-
-.cardExp-2::before {
-  content: "";
-  position: absolute;
-  background-color: #ff2a48;
-  height: 30px;
-  width: 30px;
-  left: -13%;
-  top: 40%;
-  border-radius: 15px;
 }
