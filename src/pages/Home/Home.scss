@@ -26,14 +26,6 @@
   position: relative;
 }
 
-.groupExp {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 100px;
-  grid-row-gap: 50px;
-}
-
 .about_Picture {
   display: flex;
   justify-content: space-around;
@@ -42,12 +34,24 @@
 
 .skillsTitle {
   display: flex;
-  justify-content: center;
+  //justify-content: center;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   margin-top: 150px;
   text-transform: uppercase;
+  position: relative;
+  margin-left: 150px;
+}
+
+.skillsTitle::after {
+  content: "";
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  left: 165px;
 }
 
 .skillsGroup {
@@ -56,22 +60,41 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  margin-top: 15px;
+  grid-row-gap: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
-.cardExp_position-1 {
-  grid-area: 1/1/2/2;
-  display: flex;
-  justify-content: flex-end;
+.expTitle {
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  margin-left: 150px;
+  position: relative;
 }
-.cardExp_position-2 {
-  grid-area: 2/2/3/3;
+
+.expTitle::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  right: 100px;
+  left: 450px;
+  top: 50%;
+  background-color: #fff;
 }
+
+.cardExp_position-1,
+.cardExp_position-2,
 .cardExp_position-3 {
-  grid-area: 3/1/4/2;
+  margin-top: 50px;
+}
+
+.groupExp {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
 }
 
 .counter-container {
