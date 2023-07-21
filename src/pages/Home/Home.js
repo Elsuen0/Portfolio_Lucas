@@ -44,8 +44,9 @@ const Home = () => {
                     <Skills skillImage={'./physics_1126012.png'} percentage={50} />
                     <Skills skillImage={'./nodejs_919825.png'} percentage={30} />
                 </article>
-
+                <h1 className='expTitle'>Mes expériences & formations</h1>
                 <article className='groupExp'>
+
                     {data.map((item, index) => (<article key={index} className={`cardExp_position-${index + 1}`} ><Experiences key={index} title={item.title} year={item.year} cpt1={item.cpt1} cpt2={item.cpt2} subtitle={item.subtitle} className={`cardExp-${index + 1}`} /></article>))}
                 </article>
                 <div className='counter-container'>
