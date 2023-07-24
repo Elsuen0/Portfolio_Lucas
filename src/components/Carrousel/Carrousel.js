@@ -7,7 +7,6 @@ import './Carrousel.scss'
 const Carrousel = ({ projects }) => {
 
     const settings = {
-        clasName: "center",
         dots: true,
         centerMode: true,
         centerPadding: "25%",
