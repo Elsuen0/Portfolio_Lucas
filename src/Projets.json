@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Frontend du site Booki",
+        "description": "Intégration de l'interface du site avec du code HTML & CSS.",
+        "image": "./projet1_mockup.png"
+    },
+    {
+        "id":2,
+        "title": "Création d'une page web dynamique avec JavaScript",
+        "description": "Développement du portfolio d'une architecte d'intérieure, qui comprend : La page de présentation des travaux ; la page de connexion de l'administrateur du site ; la modale permettant d'uploader de nouveaux médias.",
+        "image":"./projet2_mockup.png"
+    },
+    {
+        "id":3,
+        "title": "Planification d'un site web",
+        "description": "Préparation et planification du projet de développement d'un site. Mise en place d'une méthodologie de travail agile et collaboration avec une équipe de développement.",
+        "image":"./projet3_mockup.png"
+    },
+    {
+        "id": 4,
+        "title": "Débuggage et optimisation d'un site web",
+        "description": "Intégration de l'interface du site avec du code HTML & CSS.",
+        "image": "./projet4_mockup.png"
+    },
+    {
+        "id":5,
+        "title": "Création d'une application web avec React",
+        "description": "Développement du portfolio d'une architecte d'intérieure, qui comprend : La page de présentation des travaux ; la page de connexion de l'administrateur du site ; la modale permettant d'uploader de nouveaux médias.",
+        "image":"./projet5_mockup.png"
+    },
+    {
+        "id":6,
+        "title": "Développement du Back-end d'un site de notation de livres",
+        "description": "Préparation et planification du projet de développement d'un site. Mise en place d'une méthodologie de travail agile et collaboration avec une équipe de développement.",
+        "image":"./Projet2.png"
+    }
+]
