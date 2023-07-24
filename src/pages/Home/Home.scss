@@ -15,8 +15,7 @@
   position: relative;
 }
 
-#sousSection1,
-#sousSection2 {
+#sousSection1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,4 +101,29 @@
   //height: 100%;
   display: flex;
   justify-content: center;
+}
+
+#sousSection2 {
+  padding-left: 150px;
+  min-height: 100vh;
+}
+
+.projectsTitle {
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  margin-left: 150px;
+  position: relative;
+}
+
+.projectsTitle::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  right: 100px;
+  left: 195px;
+  top: 50%;
+  background-color: #fff;
 }
