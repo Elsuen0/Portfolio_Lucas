@@ -23,6 +23,7 @@
     "sass": "^1.63.6",
     "slick-carousel": "^1.8.1",
     "style-loader": "^3.3.3",
+    "swiper": "^10.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
