@@ -1,32 +1,27 @@
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import React from 'react';
 import './Carrousel.scss'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const Carrousel = ({ projects }) => {
-
-    const settings = {
-        dots: true,
-        centerMode: true,
-        centerPadding: "25%",
-        infinite: true,
-        slidesToShow: 1,
-        slideToScroll: 1,
-        speed: 500,
-        focusOnSelect: true,
-    };
-
     return (
         <div>
-            <Slider {...settings}>
+            <Swiper
+                slidesPerView={1.2}
+                centeredSlides={true}
+                loop={true}
+                spaceBetween={30}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[Pagination]}>
                 {projects.map((project) => (
-                    <div key={project.id} className='slide'>
-                        <img src={project.image} alt={project.title} />
-                        <h2>{project.title}</h2>
-                    </div>
+                    <SwiperSlide key={project.id} className='slider'> <img src={project.image} alt={project.title} className='slider-img' /> <h2>{project.title}</h2></SwiperSlide>
                 ))}
-            </Slider>
+            </Swiper>
         </div>
     );
 };
