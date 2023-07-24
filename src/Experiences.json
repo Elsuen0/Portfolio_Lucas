@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "Développeur Web",
         "subtitle":"Formation Openclassrooms - RNCP 5",
         "year": "2023",
@@ -7,6 +8,7 @@
         "cpt2": "Capacité à concevoir et à créer des sites webs interactifs et réactifs, répondant aux besoins du marché numérique moderne."
     },
     {
+        "id":2,
         "title": "Graphiste",
         "subtitle":"Autodidacte",
         "year": "2019 - 2023",
