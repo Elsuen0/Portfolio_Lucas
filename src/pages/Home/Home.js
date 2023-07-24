@@ -11,6 +11,8 @@ import data from '../../Experiences.json'
 import Profile from '../../components/ProfileImage/Profile';
 import Skills from '../../components/Skills/Skills';
 import Scroll from '../../components/Scroll/Scroll';
+import Carrousel from '../../components/Carrousel/Carrousel';
+import projectsData from '../../Projets.json';
 
 
 const Home = () => {
@@ -53,8 +55,12 @@ const Home = () => {
                     <Counter numPage={'02'} />
                 </div>
             </section>
-            <section id='sousSection2'>
 
+            <section id='sousSection2'>
+                <h1 className='projectsTitle'>
+                    Mes Projets
+                </h1>
+                <Carrousel projects={projectsData} />
             </section>
         </div>
     );
