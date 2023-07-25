@@ -111,17 +111,34 @@
   justify-content: space-between;
 }
 
-.projectsTitle {
-  font-weight: 200;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5em;
-  margin-left: 150px;
+.title_group {
   position: relative;
+  .projectsTitle {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    //margin-left: 150px;
+    position: relative;
+    z-index: 1;
+  }
+  h2 {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 80px;
+    text-transform: uppercase;
+    z-index: 0;
+    opacity: 0.05;
+  }
 }
 
-.projectsTitle::after {
+/*.projectsTitle::after {
   content: "";
   height: 2px;
   position: absolute;
@@ -129,4 +146,4 @@
   left: 195px;
   top: 50%;
   background-color: #fff;
-}
+}*/
