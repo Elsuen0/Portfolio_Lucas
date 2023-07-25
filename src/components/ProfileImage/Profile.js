@@ -4,7 +4,7 @@ import './Profile.scss'
 const Profile = () => {
     return (
         <div className="image-container">
-            <img src="./Elsueno.png" alt="Photo de profil El sueno" />
+            <img src="./Elsueno.png" alt="El Sueno" />
             <div className='overlay-text'>
                 <h1>Pas de panique !</h1>
                 <p>
