@@ -1,7 +1,5 @@
 import React from 'react';
 import './Me.scss'
-import Scroll from '../Scroll/Scroll';
-import Counter from '../CompteurPage/Counter';
 
 const Me = () => {
     return (
