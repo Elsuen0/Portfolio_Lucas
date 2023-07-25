@@ -61,6 +61,9 @@ const Home = () => {
                     Mes Projets
                 </h1>
                 <Carrousel projects={projectsData} />
+                <div className='counter-container'>
+                    <Counter numPage={'03'} />
+                </div>
             </section>
         </div>
     );
