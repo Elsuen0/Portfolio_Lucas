@@ -13,6 +13,8 @@ import Skills from '../../components/Skills/Skills';
 import Scroll from '../../components/Scroll/Scroll';
 import Carrousel from '../../components/Carrousel/Carrousel';
 import projectsData from '../../Projets.json';
+import Services from '../../components/MesServices/Services';
+import servicesData from '../../Services.json';
 
 
 const Home = () => {
@@ -68,6 +70,21 @@ const Home = () => {
                 <Carrousel projects={projectsData} />
                 <div className='counter-container'>
                     <Counter numPage={'03'} />
+                </div>
+            </section>
+
+            <section id='sousSection3'>
+                <div className='title_group'>
+                    <h1 className='projectsTitle'>
+                        Mes <span className='style_R'>Services</span>
+                    </h1>
+                    <h2>
+                        Offres
+                    </h2>
+                </div>
+                <Services services={servicesData} />
+                <div className='counter-container'>
+                    <Counter numPage={'04'} />
                 </div>
             </section>
         </div>
