@@ -57,9 +57,14 @@ const Home = () => {
             </section>
 
             <section id='sousSection2'>
-                <h1 className='projectsTitle'>
-                    Mes Projets
-                </h1>
+                <div className='title_group'>
+                    <h1 className='projectsTitle'>
+                        Mes <span className='style_R'>Projets</span>
+                    </h1>
+                    <h2>
+                        Portfolio
+                    </h2>
+                </div>
                 <Carrousel projects={projectsData} />
                 <div className='counter-container'>
                     <Counter numPage={'03'} />
