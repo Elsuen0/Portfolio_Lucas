@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Développement web",
+        "description": "Des solutions web évolutives et sécurisées, conçues pour répondre aux besoins spécifiques de votre entreprise, tout en garantissant une expérience utilisateur exceptionnelle.",
+        "image": "./programmation-web.png"
+    },
+    {
+        "id": 2,
+        "title": "Debug & Optimisation",
+        "description": "Diagnostique et résolution des problèmes techniques pour améliorer la performance et la fiabilité de vos projets web, tout en optimisant votre présence en ligne.",
+        "image": "./optimisation.png"
+    },
+    {
+        "id": 3,
+        "title": "Intégration de maquettes graphiques",
+        "description": "Offrez à vos conceptions graphiques une présence en ligne dynamique grâce à une intégration soignée et responsive, pour un impact visuel optimal.",
+        "image": "./creation-de-sites-web.png"
+    }
+]
