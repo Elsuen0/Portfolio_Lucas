@@ -34,8 +34,8 @@ const BurgerMenu = () => {
                         <li><a className='modalLink' href="#main">Accueil</a></li>
                         <li><a className='modalLink' href="#sousSection1">A propos</a></li>
                         <li><a className='modalLink' href="#sousSection2">Projets</a></li>
-                        <li><a className='modalLink' href="#">Services</a></li>
-                        <li><a className='modalLink' href="#">Contact</a></li>
+                        <li><a className='modalLink' href="#sousSection3">Services</a></li>
+                        <li><a className='modalLink' href="#sousSection3">Contact</a></li>
                     </ul>
                 </div>
             </Modal>
