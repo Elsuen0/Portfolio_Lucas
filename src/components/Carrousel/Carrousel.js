@@ -10,14 +10,16 @@ const Carrousel = ({ projects }) => {
     return (
         <div>
             <Swiper
-                slidesPerView={1.2}
+                slidesPerView={1.5}
                 centeredSlides={true}
                 loop={true}
                 spaceBetween={30}
+                navigation={true}
                 pagination={{
                     clickable: true,
+                    bulletActiveClass: 'swiper-pagination-bullet-active',
                 }}
-                modules={[Pagination]}>
+                modules={[Pagination, Navigation]}>
                 {projects.map((project) => (
                     <SwiperSlide key={project.id} className='slider'> <img src={project.image} alt={project.title} className='slider-img' /> <h2>{project.title}</h2></SwiperSlide>
                 ))}
