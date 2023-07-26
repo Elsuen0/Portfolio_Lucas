@@ -9,7 +9,7 @@ const Buttons = () => {
         <div className='socialMediaButtons'>
             <a href="https://github.com/Elsuen0?tab=repositories" target='_blank' rel='noopener noreferrer'><button><FontAwesomeIcon icon={faGithub} /></button></a>
             <a href="https://www.linkedin.com/in/lucas-capart/" target='_blank' rel='noopener noreferrer'><button><FontAwesomeIcon icon={faLinkedin} /></button></a>
-            <button><FontAwesomeIcon icon={faEnvelope} /></button>
+            <a href="#footer"><button><FontAwesomeIcon icon={faEnvelope} /></button></a>
         </div>
     );
 };
