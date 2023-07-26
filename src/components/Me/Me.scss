@@ -112,5 +112,8 @@ $primaryFont: "Open Sans", sans-serif;
 @media screen and (max-width: 768px) {
   .meSection {
     width: 100%;
+    h2 {
+      font-size: 40px;
+    }
   }
 }
