@@ -150,8 +150,20 @@
 
 #sousSection3 {
   padding-left: 150px;
-  min-height: 100vh;
+  //min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+footer {
+  padding-left: 150px;
+  //min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .contact_group {
+    display: flex;
+    justify-content: space-around;
+  }
 }
