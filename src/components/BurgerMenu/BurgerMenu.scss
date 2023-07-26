@@ -11,6 +11,7 @@ $primaryFont: "Montserrat", sans-serif;
   animation-name: slideIn;
   animation-duration: 0.5s;
   animation-timing-function: ease-out;
+  margin-right: 0;
 }
 
 .overlay {
@@ -108,5 +109,13 @@ $primaryFont: "Montserrat", sans-serif;
   .modalLink:hover::before {
     transform: translateX(0);
     background-color: #ff2a48;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal {
+    width: 50%;
+    max-width: none;
+    margin-right: 0;
   }
 }
