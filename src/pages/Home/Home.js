@@ -15,6 +15,7 @@ import Carrousel from '../../components/Carrousel/Carrousel';
 import projectsData from '../../Projets.json';
 import Services from '../../components/MesServices/Services';
 import servicesData from '../../Services.json';
+import Form from '../../components/FormulaireContact/Form';
 
 
 const Home = () => {
@@ -87,6 +88,26 @@ const Home = () => {
                     <Counter numPage={'04'} />
                 </div>
             </section>
+
+            <footer id='footer'>
+                <div className='title_group'>
+                    <h1 className='projectsTitle'>
+                        Me <span className='style_R'>Contacter</span>
+                    </h1>
+                    <h2>
+                        Contact
+                    </h2>
+                </div>
+                <div className="contact_group">
+                    <div className="contact_description">
+                        <h1>Commençons votre projet !</h1>
+                    </div>
+                    <Form />
+                </div>
+                <div className='counter-container'>
+                    <Counter numPage={'05'} />
+                </div>
+            </footer>
         </div>
     );
 };
