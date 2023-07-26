@@ -108,3 +108,9 @@ $primaryFont: "Open Sans", sans-serif;
 .style_R {
   color: #ff2a48;
 }
+
+@media screen and (max-width: 768px) {
+  .meSection {
+    width: 100%;
+  }
+}
