@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
 import BurgerMenu from '../../components/BurgerMenu/BurgerMenu';
 import Me from '../../components/Me/Me';
 import './Home.scss'
@@ -16,6 +15,7 @@ import projectsData from '../../Projets.json';
 import Services from '../../components/MesServices/Services';
 import servicesData from '../../Services.json';
 import Form from '../../components/FormulaireContact/Form';
+import Header from '../../components/header/Header';
 
 
 const Home = () => {
