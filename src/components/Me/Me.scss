@@ -112,8 +112,16 @@ $primaryFont: "Open Sans", sans-serif;
 @media screen and (max-width: 768px) {
   .meSection {
     width: 100%;
+    h1 {
+      &::after {
+        display: none;
+      }
+    }
     h2 {
       font-size: 40px;
+    }
+    h3 {
+      text-align: left;
     }
   }
 }
