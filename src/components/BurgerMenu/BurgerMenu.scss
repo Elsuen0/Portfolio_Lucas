@@ -118,4 +118,20 @@ $primaryFont: "Montserrat", sans-serif;
     max-width: none;
     margin-right: 0;
   }
+  .modalContent {
+    font-size: 20px;
+    ul {
+      margin-left: 10px;
+      li {
+        height: fit-content;
+        a {
+          height: fit-content;
+        }
+      }
+    }
+    .modalLink::before {
+      top: 30%;
+      height: 33px;
+    }
+  }
 }
