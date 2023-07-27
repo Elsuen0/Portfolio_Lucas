@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Services.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const Services = ({ services }) => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     return (
         <div className='serviceGroup'>
-            {services.map((service) => (
-                <div className='serviceCard' key={service.id}>
+            {services.map((service, index) => (
+                <div
+                    className='serviceCard'
+                    key={service.id}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 200}>
                     <div className='background_img'>
                         <img src={service.image} alt={service.title} />
                     </div>
