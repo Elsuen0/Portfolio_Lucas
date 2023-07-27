@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import BurgerMenu from '../../components/BurgerMenu/BurgerMenu';
 import Me from '../../components/Me/Me';
 import './Home.scss'
@@ -16,9 +16,17 @@ import Services from '../../components/MesServices/Services';
 import servicesData from '../../Services.json';
 import Form from '../../components/FormulaireContact/Form';
 import Header from '../../components/header/Header';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
+    const aosEffects = ['fade-right', 'fade-left'];
+
     return (
         <div className='homeStyle'>
             <Header />
@@ -33,7 +41,7 @@ const Home = () => {
             </main>
             <section id='sousSection1'>
                 <AnimationBar />
-                <article className='about_Picture'>
+                <article className='about_Picture' data-aos="fade-up" data-aos-duration="1000">
                     <About />
                     <Profile />
                 </article>
@@ -41,7 +49,7 @@ const Home = () => {
                 <h1 className='skillsTitle'>
                     Mes Skills
                 </h1>
-                <article className='skillsGroup'>
+                <article className='skillsGroup' data-aos="fade-up">
                     <Skills skillImage={'./html_1051277.png'} percentage={90} />
                     <Skills skillImage={'./css-3_732190.png'} percentage={90} />
                     <Skills skillImage={'./js_5968292.png'} percentage={60} />
@@ -52,7 +60,22 @@ const Home = () => {
                 <h1 className='expTitle'>Mes expériences & formations</h1>
                 <article className='groupExp'>
 
-                    {data.map((item, index) => (<article key={index} className={`cardExp_position-${index + 1}`} ><Experiences key={index} title={item.title} year={item.year} cpt1={item.cpt1} cpt2={item.cpt2} subtitle={item.subtitle} className={`cardExp-${index + 1}`} /></article>))}
+
+                    {data.map((item, index) => (
+                        <article
+                            key={index}
+                            className={`cardExp_position-${index + 1}`}
+                            data-aos={aosEffects[index % aosEffects.length]}
+                            data-aos-duration='1500'>
+                            <Experiences key={index}
+                                title={item.title}
+                                year={item.year}
+                                cpt1={item.cpt1}
+                                cpt2={item.cpt2}
+                                subtitle={item.subtitle}
+                                className={`cardExp-${index + 1}`} />
+                        </article>))}
+
                 </article>
                 <div className='counter-container'>
                     <Counter numPage={'02'} />
@@ -100,7 +123,8 @@ const Home = () => {
                 </div>
                 <div className="contact_group">
                     <div className="contact_description">
-                        <h1>Commençons votre projet !</h1>
+                        <h1>Créons ensemble votre succès en ligne !</h1>
+                        <p>En tant que développeur web passionné, je suis déterminé à réaliser vos projets les plus ambitieux. Contactez-moi dès maintenant pour discuter de votre vision et démarrer cette aventure digitale !</p>
                     </div>
                     <Form />
                 </div>
