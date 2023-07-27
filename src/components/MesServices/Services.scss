@@ -33,3 +33,17 @@ $primaryColor: #ff2a48;
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .serviceGroup {
+    width: 100%;
+    flex-direction: column;
+    .serviceCard {
+      width: 100%;
+      box-sizing: border-box;
+      h1 {
+        text-align: center;
+      }
+    }
+  }
+}
