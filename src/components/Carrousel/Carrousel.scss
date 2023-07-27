@@ -44,3 +44,19 @@
     margin-right: 0px !important;
   }
 }
+@media screen and (max-width: 768px) {
+  :root {
+    .swiper-button {
+      &-prev,
+      &-next {
+        display: none;
+      }
+    }
+  }
+  .slider-img {
+    height: 300px;
+  }
+  .slider h2 {
+    font-size: 15px;
+  }
+}
