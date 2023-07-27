@@ -5,8 +5,13 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Carrousel = ({ projects }) => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
     const swiperRef = useRef(null);
 
     useEffect(() => {
@@ -32,7 +37,7 @@ const Carrousel = ({ projects }) => {
         };
     }, []);
     return (
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1500">
             <Swiper
                 ref={swiperRef}
                 slidesPerView={1.5}
