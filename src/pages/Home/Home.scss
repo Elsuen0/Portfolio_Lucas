@@ -165,6 +165,22 @@ footer {
   .contact_group {
     display: flex;
     justify-content: space-around;
+    .contact_description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 500px;
+      h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 25px;
+        text-align: center;
+      }
+      p {
+        color: #fff;
+        text-align: center;
+      }
+    }
   }
 }
 
