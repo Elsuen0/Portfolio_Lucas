@@ -18,3 +18,11 @@
   margin-left: 15px;
   background-color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .scroll {
+    right: -25px;
+    margin: 0;
+    font-size: 15px;
+  }
+}
