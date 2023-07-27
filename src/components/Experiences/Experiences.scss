@@ -4,7 +4,7 @@
   position: relative;
   width: 500px;
   height: fit-content;
-  background-color: #5a5a5a;
+  //background-color: #5a5a5a;
   border-radius: 25px;
   padding: 15px;
   //margin-top: 10px;
@@ -49,5 +49,27 @@
   li {
     color: white;
     margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardExp-1,
+  .cardExp-2 {
+    h1 {
+      &::before {
+        width: 100%;
+      }
+    }
+    h2 {
+      margin-top: 15px;
+      font-size: 12px;
+      font-weight: 200;
+    }
+    .expYear {
+      text-align: center;
+    }
+    li {
+      font-size: 15px;
+      font-weight: 300;
+    }
   }
 }
