@@ -2,8 +2,11 @@
     {
         "id": 1,
         "title": "Frontend du site Booki",
-        "description": "Intégration de l'interface du site avec du code HTML & CSS.",
-        "image": "./projet1_mockup.avif"
+        "description": "L'intégration de l'interface du site a été réalisée en utilisant du code HTML & CSS. Booki est une plateforme de réservation de logement en ligne qui offre une expérience entièrement adaptative à tous les appareils.",
+        "image": "./projet1_mockup.avif",
+        "image2": "./projet1_mockup_modale.avif",
+        "image3": "./Desktop.png",
+        "technologies": ["HTML", "CSS"]
     },
     {
         "id":2,
