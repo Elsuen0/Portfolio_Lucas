@@ -7,7 +7,8 @@
         "image2": "./projet1_mockup_modale.png",
         "imagesDescription": ["./Desktop.png"],
         "technologies": ["HTML", "CSS"],
-        "link": "https://elsuen0.github.io/Booki-HTML-CSS/"
+        "link": "https://github.com/Elsuen0/Booki-HTML-CSS",
+        "link_text":"Voir sur Github"
     },
     {
         "id":2,
@@ -16,7 +17,9 @@
         "image":"./projet2_mockup.avif",
         "image2":"./projet2_mockup_modale.avif",
         "imagesDescription": ["./Homepage_edit_sucess.png", "./Homepage_edit_1.png", "./Homepage_edit_3.png", "./Login.png"],
-        "technologies":["JavaScript"]
+        "technologies":["JavaScript"],
+        "link": "https://github.com/Elsuen0/Portfolio-architecte-sophie-bluel",
+        "link_text":"Voir sur Github"
     },
     {
         "id":3,
@@ -24,24 +27,42 @@
         "description": "Le projet Menu Maker est une démonstration de compétences en gestion de projet pour le développement d'un site web complet. De la veille technologique pour sélectionner les meilleures technologies à l'utilisation d'outils tels que Evernote ou encore Notion pour la gestion de projet en utilisant la méthode kanban, chaque étape a été soigneusement orchestrée. Le résultat est une solution parfaitement adaptée aux besoins techniques du client.",
         "image":"./projet3_mockup.avif",
         "image2":"./projet3_mockup_modale.avif",
-        "imagesDescription":[]
+        "imagesDescription": ["./Log_In.png", "./Creer_un_menu.png"],
+        "technologies":["Notion", "Evernote", "PowerPoint"],
+        "link":"https://github.com/Elsuen0/Projet-OCR4",
+        "link_text":"Voir sur Github"
     },
     {
         "id": 4,
         "title": "Débuggage et optimisation d'un site web",
-        "description": "Intégration de l'interface du site avec du code HTML & CSS.",
-        "image": "./projet4_mockup.avif"
+        "description": "Ce projet impliquait le débuggage et l'optimisation approfondie d'un site web existant pour une photographe. En utilisant des outils tels que Google Lighthouse, DevTools, GTMetrix et Wave, j'ai amélioré les performances du site et optimisé son référencement. J'ai revu le code pour rendre le HTML sémantique et optimisé les images pour le SEO et les performances. L'accessibilité a été corrigée, et j'ai intégré le référencement local et les réseaux sociaux avec Rich Snippet et les balises meta. Un rapport final a été présenté pour mettre en évidence les améliorations apportées. Résultat : un site web performant, bien référencé et accessible.",
+        "image": "./projet4_mockup.avif",
+        "image2": "./projet4_mockup_modale.avif",
+        "imagesDescription":["./Nina_carducci_scoreLightHouse.png"],
+        "technologies":["LightHouse", "Wave", "DevTools", "HTML", "Rich Snippet"],
+        "link":"https://github.com/Elsuen0/nina-carducci.github.io",
+        "link_text":"Voir sur Github"
     },
     {
         "id":5,
         "title": "Création d'une application web avec React",
-        "description": "Développement du portfolio d'une architecte d'intérieure, qui comprend : La page de présentation des travaux ; la page de connexion de l'administrateur du site ; la modale permettant d'uploader de nouveaux médias.",
-        "image":"./projet5_mockup.avif"
+        "description": "Ce projet captivant a consisté à créer la plateforme web pour Kasa, une entreprise spécialisée dans la location d'appartements entre particuliers. En utilisant React de A à Z, j'ai développé la plateforme en concevant le routeur et les différentes pages. J'ai suivi les meilleures pratiques pour créer un carrousel en code, utilisé des composants réutilisables, et mis en place une gestion des erreurs solide. Ce projet a été une immersion complète dans l'écosystème React, avec un résultat final impressionnant pour la plateforme web Kasa.",
+        "image":"./projet5_mockup.avif",
+        "image2":"./projet5_mockup_modale.avif",
+        "imagesDescription":["./Kasa_logement.png", "./Kasa_about.png", "./Kasa_404.png"],
+        "technologies":["React", "JSX", "HTML", "SASS"],
+        "link":"https://github.com/Elsuen0/Kasa",
+        "link_text":"Voir sur Github"
     },
     {
         "id":6,
         "title": "Développement du Back-end d'un site de notation de livres",
-        "description": "Préparation et planification du projet de développement d'un site. Mise en place d'une méthodologie de travail agile et collaboration avec une équipe de développement.",
-        "image":"./projet6_mockup.avif"
+        "description": "Ce projet passionnant consistait à développer la partie backend d'un site de notation de livres. En utilisant Node.js, Express et MongoDB, j'ai créé un serveur robuste et efficace. J'ai mis en place une API complète, incluant un système d'authentification sécurisé et la gestion des fichiers utilisateurs. Un système de notation sophistiqué a été implémenté, calculant automatiquement la note moyenne des livres. J'ai perfectionné l'appel et l'utilisation de l'API pour une expérience utilisateur optimale. Résultat : un backend puissant et performant pour une application de notation de livres.",
+        "image":"./projet6_mockup.avif",
+        "image2":"./projet6_mockup_modale.avif",
+        "imagesDescription":["./Accueil.png", "./Ajout Livre filled.png"],
+        "technologies":["Node.js", "Express", "MongoDB"],
+        "link":"https://github.com/Elsuen0/P7-Dev-Web-livres",
+        "link_text":"Voir sur Github"
     }
 ]
