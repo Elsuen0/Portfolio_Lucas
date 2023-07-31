@@ -119,6 +119,7 @@ const Carrousel = ({ projects }) => {
                             <h2>Description :</h2>
                             <p>{selectedProject.description}</p>
                             <h2>Technologies utilisées :</h2>
+
                         </div>
                     </div>
                     <img className='img3' src={selectedProject.image3} alt="" />
