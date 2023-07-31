@@ -249,6 +249,9 @@ footer {
     flex-direction: column;
     .contact_group {
       flex-direction: column;
+      .contact_description {
+        width: 100%;
+      }
       .formGroup {
         width: 100%;
         box-sizing: border-box;
