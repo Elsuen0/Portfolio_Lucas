@@ -4,21 +4,27 @@
         "title": "Frontend du site Booki",
         "description": "L'intégration de l'interface du site a été réalisée en utilisant du code HTML & CSS. Booki est une plateforme de réservation de logement en ligne qui offre une expérience entièrement adaptative à tous les appareils.",
         "image": "./projet1_mockup.avif",
-        "image2": "./projet1_mockup_modale.avif",
-        "image3": "./Desktop.png",
-        "technologies": ["HTML", "CSS"]
+        "image2": "./projet1_mockup_modale.png",
+        "imagesDescription": ["./Desktop.png"],
+        "technologies": ["HTML", "CSS"],
+        "link": "https://elsuen0.github.io/Booki-HTML-CSS/"
     },
     {
         "id":2,
         "title": "Création d'une page web dynamique avec JavaScript",
-        "description": "Développement du portfolio d'une architecte d'intérieure, qui comprend : La page de présentation des travaux ; la page de connexion de l'administrateur du site ; la modale permettant d'uploader de nouveaux médias.",
-        "image":"./projet2_mockup.avif"
+        "description": "Ce projet dynamique en JavaScript se concentre sur l'interaction fluide entre l'utilisateur et une page web. En utilisant des formulaires, il permet la récupération des données utilisateur, la manipulation en temps réel du contenu grâce au DOM et la gestion réactive des événements. Parmi les fonctionnalités clés, on retrouve une page de connexion intuitive et une fenêtre modale pour une expérience utilisateur immersive.",
+        "image":"./projet2_mockup.avif",
+        "image2":"./projet2_mockup_modale.avif",
+        "imagesDescription": ["./Homepage_edit_sucess.png", "./Homepage_edit_1.png", "./Homepage_edit_3.png", "./Login.png"],
+        "technologies":["JavaScript"]
     },
     {
         "id":3,
         "title": "Planification d'un site web",
-        "description": "Préparation et planification du projet de développement d'un site. Mise en place d'une méthodologie de travail agile et collaboration avec une équipe de développement.",
-        "image":"./projet3_mockup.avif"
+        "description": "Le projet Menu Maker est une démonstration de compétences en gestion de projet pour le développement d'un site web complet. De la veille technologique pour sélectionner les meilleures technologies à l'utilisation d'outils tels que Evernote ou encore Notion pour la gestion de projet en utilisant la méthode kanban, chaque étape a été soigneusement orchestrée. Le résultat est une solution parfaitement adaptée aux besoins techniques du client.",
+        "image":"./projet3_mockup.avif",
+        "image2":"./projet3_mockup_modale.avif",
+        "imagesDescription":[]
     },
     {
         "id": 4,
