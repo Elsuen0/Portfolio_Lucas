@@ -34,7 +34,7 @@ $primaryFont: "Montserrat", sans-serif;
 }
 .buttonModal {
   background: none;
-  position: fixed;
+  //position: fixed;
   top: 30px;
   right: 30px;
   border: none;
@@ -114,7 +114,7 @@ $primaryFont: "Montserrat", sans-serif;
 
 @media screen and (max-width: 768px) {
   .modal {
-    width: 50%;
+    width: 70%;
     max-width: none;
     margin-right: 0;
   }
