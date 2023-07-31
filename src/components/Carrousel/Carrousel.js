@@ -119,10 +119,19 @@ const Carrousel = ({ projects }) => {
                             <h2>Description :</h2>
                             <p>{selectedProject.description}</p>
                             <h2>Technologies utilisées :</h2>
-
+                            <div className='groupTag'>
+                                {selectedProject.technologies.map((tag, index) => (
+                                    <span key={index} className='tag'>{tag}</span>
+                                ))}
+                            </div>
+                            <a href={selectedProject.link} target='blank'><button>Visiter le site</button></a>
                         </div>
                     </div>
-                    <img className='img3' src={selectedProject.image3} alt="" />
+                    <div className="groupImg">
+                        {selectedProject.imagesDescription.map((imageUrl, index) => (
+                            <img key={index} src={imageUrl} alt={`Img ${index}`} className={`imgModale imgModale${selectedProject.id}_${index}`} />
+                        ))}
+                    </div>
                 </div>
 
             </Modal>
