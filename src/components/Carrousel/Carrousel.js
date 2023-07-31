@@ -118,13 +118,13 @@ const Carrousel = ({ projects }) => {
                             <h1>{selectedProject.title}</h1>
                             <h2>Description :</h2>
                             <p>{selectedProject.description}</p>
-                            <h2>Technologies utilisées :</h2>
+                            <h2>Technologies / Outils utilisé(e)s :</h2>
                             <div className='groupTag'>
                                 {selectedProject.technologies.map((tag, index) => (
                                     <span key={index} className='tag'>{tag}</span>
                                 ))}
                             </div>
-                            <a href={selectedProject.link} target='blank'><button>Visiter le site</button></a>
+                            <a href={selectedProject.link} target='blank'><button>{selectedProject.link_text}</button></a>
                         </div>
                     </div>
                     <div className="groupImg">
