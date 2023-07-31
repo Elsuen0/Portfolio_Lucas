@@ -233,4 +233,19 @@
   .slider h2 {
     font-size: 15px;
   }
+  .modal-carrousel {
+    width: 100%;
+  }
+  .modalContent_carrousel {
+    .img1 {
+      width: 100%;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .imgModale2_0 {
+    width: 100%;
+  }
 }
