@@ -15,7 +15,7 @@ import projectsData from '../../Projets.json';
 import Services from '../../components/MesServices/Services';
 import servicesData from '../../Services.json';
 import Form from '../../components/FormulaireContact/Form';
-import Header from '../../components/header/Header';
+import Header from '../../components/Header/Header';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
