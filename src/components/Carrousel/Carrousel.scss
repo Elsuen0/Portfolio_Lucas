@@ -234,7 +234,10 @@
     font-size: 15px;
   }
   .modal-carrousel {
-    width: 100%;
+    width: 80%;
+  }
+  .modal-carrousel:focus {
+    outline: none;
   }
   .modalContent_carrousel {
     .img1 {
@@ -243,6 +246,28 @@
     .row {
       display: flex;
       flex-direction: column;
+      .projectDescription {
+        h1 {
+          font-size: 20px;
+        }
+        h2 {
+          font-size: 15px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .groupTag {
+          font-size: 12px;
+          justify-content: center;
+        }
+        button {
+          font-size: 12px;
+        }
+        .modaleButton {
+          display: flex;
+          justify-content: center;
+        }
+      }
     }
   }
   .imgModale2_0 {
