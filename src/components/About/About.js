@@ -19,8 +19,8 @@ const About = () => {
                 <br />Si vous <span className='style_R'>recherchez</span> un développeur web passionné, polyvalent et désireux d'apprendre, je suis <span className='style_R'>prêt</span> à relever de nouveaux défis. Contactez-moi pour discuter de vos projets et découvrir comment nous pouvons créer quelque chose d'<span className='style_R'>extraordinaire</span> ensemble.
             </p>
             <div className="buttonSection">
-                <button className='buttonContact'>Me Contacter</button>
-                <button className='buttonCv' id='cv-button'>Voir Mon Cv</button>
+                <a href="#footer"><button className='buttonContact'>Me Contacter</button></a>
+                <a href="./CV_DW_Lucas_Capart.pdf" target="_blank" rel="noopener noreferrer"><button className='buttonCv' id='cv-button'>Voir Mon Cv</button></a>
             </div>
 
         </div >
