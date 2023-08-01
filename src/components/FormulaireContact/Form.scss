@@ -100,3 +100,32 @@ textarea {
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #name,
+  #firstName,
+  #email,
+  #message {
+    &::placeholder {
+      font-size: 10px;
+    }
+  }
+  .textarea_group {
+    .characterCounter {
+      font-size: 10px;
+    }
+  }
+
+  .formGroup {
+    .form {
+      input {
+        height: 30px;
+      }
+      .button_container {
+        .button_send {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
