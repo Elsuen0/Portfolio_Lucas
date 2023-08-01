@@ -124,7 +124,9 @@ const Carrousel = ({ projects }) => {
                                     <span key={index} className='tag'>{tag}</span>
                                 ))}
                             </div>
-                            <a href={selectedProject.link} target='blank'><button>{selectedProject.link_text}</button></a>
+                            <div className="modaleButton">
+                                <a href={selectedProject.link} target='blank'><button>{selectedProject.link_text}</button></a>
+                            </div>
                         </div>
                     </div>
                     <div className="groupImg">
