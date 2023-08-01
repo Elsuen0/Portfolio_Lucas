@@ -8,3 +8,9 @@
   font-family: "Montserrat", sans-serif;
   letter-spacing: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .counterPage {
+    font-size: 20px;
+  }
+}
