@@ -26,6 +26,8 @@ const BurgerMenu = () => {
                 onRequestClose={closeModal}
                 className="modal"
                 overlayClassName="overlay"
+                autoFocus={false}
+                shouldReturnFocusAfterClose={false}
                 closeTimeoutMS={0} // Durée de l'animation en millisecondes
             >
                 <div className='modalContent'>
