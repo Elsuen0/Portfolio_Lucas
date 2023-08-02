@@ -50,12 +50,12 @@ const Home = () => {
                     Mes Skills
                 </h1>
                 <article className='skillsGroup' data-aos="fade-up">
-                    <Skills skillImage={'./html_1051277.png'} percentage={90} />
-                    <Skills skillImage={'./css-3_732190.png'} percentage={90} />
-                    <Skills skillImage={'./js_5968292.png'} percentage={60} />
-                    <Skills skillImage={'./photoshop_5968520.png'} percentage={99} />
-                    <Skills skillImage={'./physics_1126012.png'} percentage={50} />
-                    <Skills skillImage={'./nodejs_919825.png'} percentage={30} />
+                    <Skills skillImage={'./html_1051277.png'} percentage={90} title={'HTML'} />
+                    <Skills skillImage={'./css-3_732190.png'} percentage={90} title={'CSS'} />
+                    <Skills skillImage={'./js_5968292.png'} percentage={60} title={'JavaScript'} />
+                    <Skills skillImage={'./photoshop_5968520.png'} percentage={99} title={'PhotoShop'} />
+                    <Skills skillImage={'./physics_1126012.png'} percentage={50} title={'React'} />
+                    <Skills skillImage={'./nodejs_919825.png'} percentage={30} title={'Node.js'} />
                 </article>
                 <h1 className='expTitle'>Mes expériences & formations</h1>
                 <article className='groupExp'>
