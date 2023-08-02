@@ -78,7 +78,7 @@ $primaryFont: "Montserrat", sans-serif;
     list-style-type: none;
     padding: 0px;
     width: 100%;
-    margin-left: 150px;
+    margin-left: 15px;
     li {
       display: flex;
       width: 100%;
@@ -112,14 +112,15 @@ $primaryFont: "Montserrat", sans-serif;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 820px) {
   .modal {
-    width: 70%;
+    width: 30%;
     max-width: none;
     margin-right: 0;
   }
   .modalContent {
     font-size: 20px;
+    flex-direction: column;
     ul {
       margin-left: 10px;
       li {
@@ -133,5 +134,17 @@ $primaryFont: "Montserrat", sans-serif;
       top: 30%;
       height: 33px;
     }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .modal {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .modalContent {
+    flex-direction: column;
   }
 }
