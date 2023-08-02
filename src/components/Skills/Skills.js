@@ -24,7 +24,7 @@ const Skills = ({ skillImage, percentage, title }) => {
                     <p>{percentage}%</p>
                 </div>
             </div>
-            <h3 className='titleSkill'>{title}</h3>
+            <h1 className='titleSkill'>{title}</h1>
         </div>
     );
 };
