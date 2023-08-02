@@ -1,16 +1,29 @@
 .socialMediaButtons {
-    //border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+  //border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  button {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 25px;
+  }
+  button:hover {
+    color: #ff2a48;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .socialMediaButtons {
+    flex-direction: row;
+    align-items: center;
     button {
-        background: none;
-        color: white;
-        border: none;
-        font-size: 25px;
+      color: black;
+      svg {
+        width: 24.22px !important;
+      }
     }
-    button:hover {
-        color: #FF2A48;
-    }
+  }
 }
