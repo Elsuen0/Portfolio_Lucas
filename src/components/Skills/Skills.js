@@ -1,28 +1,47 @@
-import React from 'react';
-import './Skills.scss'
+import React, { useEffect, useState } from 'react';
+import './Skills.scss';
+import { CircularProgressbarWithChildren } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 const Skills = ({ skillImage, percentage, title }) => {
-    const radius = 45; // Rayon du cercle (ajustez selon vos besoins)
-    const circumference = 2 * Math.PI * radius;
-    const offset = circumference * (1 - percentage / 100);
+    const [strokeWidth, setStrokeWidth] = useState(8);
 
-    const circleStyle = {
-        strokeDasharray: `${circumference} ${circumference}`,
-        strokeDashoffset: offset,
-    };
+    useEffect(() => {
+        const updateStrokeWidth = () => {
+            setStrokeWidth(window.innerWidth <= 820 ? 4 : 8);
+        };
+
+        updateStrokeWidth();
+
+        // Écoutez les changements de la taille de l'écran et mettez à jour strokeWidth en conséquence
+        window.addEventListener('resize', updateStrokeWidth);
+
+        // Nettoyage de l'écouteur d'événement lors de la suppression du composant
+        return () => {
+            window.removeEventListener('resize', updateStrokeWidth);
+        };
+    }, []);
+
     return (
         <div>
             <div className="skill-circle">
-                <svg className="circle-background">
-                    <circle cx="50%" cy="50%" r={radius + '%'} />
-                </svg>
-                <svg className="circle-fill" style={circleStyle}>
-                    <circle cx="50%" cy="50%" r={radius + '%'} />
-                </svg>
-                <img src={skillImage} alt="Skill" className='skill-image' />
-                <div className="overlay-skills">
-                    <p>{percentage}%</p>
-                </div>
+                <CircularProgressbarWithChildren
+                    value={percentage}
+                    strokeWidth={strokeWidth}
+                    styles={{
+                        path: {
+                            stroke: '#ff2a48',
+                        },
+                        trail: {
+                            stroke: '#d6d6d6',
+                        },
+                    }}
+                >
+                    <img src={skillImage} alt="Skill" className='skill-image' />
+                    <div className="overlay-skills">
+                        <p>{percentage}%</p>
+                    </div>
+                </CircularProgressbarWithChildren>
             </div>
             <h1 className='titleSkill'>{title}</h1>
         </div>
