@@ -20,7 +20,7 @@ const About = () => {
             </p>
             <div className="buttonSection">
                 <a href="#footer"><button className='buttonContact'>Me Contacter</button></a>
-                <a href="./CvDeveloppeurWeb_Aout2023.pdf" target="_blank" rel="noopener noreferrer"><button className='buttonCv' id='cv-button'>Voir Mon Cv</button></a>
+                <a href="./CvDeveloppeurWeb_Octobre2023.pdf" target="_blank" rel="noopener noreferrer"><button className='buttonCv' id='cv-button'>Voir Mon Cv</button></a>
             </div>
 
         </div >
